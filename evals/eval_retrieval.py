@@ -18,13 +18,17 @@ and configured via `deepeval set-ollama` (already done).
 import json
 from pathlib import Path
 
-from deepeval.metrics import ContextualPrecisionMetric, ContextualRecallMetric, ContextualRelevancyMetric
+import psycopg
+from deepeval.metrics import (
+    ContextualPrecisionMetric,
+    ContextualRecallMetric,
+    ContextualRelevancyMetric,
+)
 from deepeval.test_case import LLMTestCase
 from pgvector.psycopg import register_vector
 from psycopg.rows import dict_row
 from sentence_transformers import CrossEncoder, SentenceTransformer
 
-import psycopg
 from wikiwise.load_vectordb import DB_DSN
 from wikiwise.retrieve import (
     CANDIDATES_PER_ARM,
@@ -75,7 +79,7 @@ def _measure_with_retry(metric, tc, label: str, question_id: str) -> float | Non
         try:
             metric.measure(tc)
             return metric.score
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001 — judge raises arbitrary errors on malformed JSON; retry, then skip
             print(f"    [warn] {label} failed on {question_id} (attempt {attempt}): {e}")
     print(f"    [skip] {label} skipped for {question_id} after {JUDGE_RETRIES} failed attempts")
     return None

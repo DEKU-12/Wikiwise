@@ -11,11 +11,11 @@ import json
 import time
 from pathlib import Path
 
+import psycopg
 import torch
 from pgvector.psycopg import register_vector
 from sentence_transformers import SentenceTransformer
 
-import psycopg
 from wikiwise.load_vectordb import DB_DSN, create_schema, upsert_chunks
 
 CHUNKS_FILE = Path("data/chunks.jsonl")

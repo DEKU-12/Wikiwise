@@ -8,6 +8,7 @@ Run with: streamlit run app.py
 import os
 
 import anthropic
+import psycopg
 import streamlit as st
 from dotenv import load_dotenv
 from langsmith import trace
@@ -15,10 +16,15 @@ from pgvector.psycopg import register_vector
 from psycopg.rows import dict_row
 from sentence_transformers import CrossEncoder, SentenceTransformer
 
-import psycopg
 from wikiwise.generate import build_prompt, generate_answer
 from wikiwise.load_vectordb import DB_DSN
-from wikiwise.retrieve import EMBED_MODEL_NAME, RERANK_MODEL_NAME, ROLES, pick_device, search
+from wikiwise.retrieve import (
+    EMBED_MODEL_NAME,
+    RERANK_MODEL_NAME,
+    ROLES,
+    pick_device,
+    search,
+)
 
 load_dotenv()
 

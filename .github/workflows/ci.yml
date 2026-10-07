@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    name: Lint + import check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - name: Install runtime deps + ruff
+        run: pip install -r requirements.txt "ruff==0.16.10"
+      - name: Lint
+        run: ruff check . --output-format github
+      - name: Import everything the deployed app loads
+        # app.py runs in Streamlit's bare mode here: builds the UI, touches no DB or API
+        run: python -c "import wikiwise.load_vectordb, wikiwise.retrieve, wikiwise.generate, app"
+
+  docker:
+    name: Docker build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build -t wikiwise .

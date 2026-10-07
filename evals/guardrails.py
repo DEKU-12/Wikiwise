@@ -58,7 +58,7 @@ def _classify_with_retry(classifier, tc: LLMTestCase, label: str, question_id: s
     for attempt in range(1, RETRIES + 1):
         try:
             return classifier.classify(tc)
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001 — judge raises arbitrary errors on malformed JSON; retry, then skip
             print(f"    [warn] {label} failed on {question_id} (attempt {attempt}): {e}")
     print(f"    [skip] {label} skipped for {question_id} after {RETRIES} failed attempts")
     return None
@@ -69,7 +69,7 @@ def _measure_with_retry(metric, tc: LLMTestCase, label: str, question_id: str) -
         try:
             metric.measure(tc)
             return metric.score
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001 — judge raises arbitrary errors on malformed JSON; retry, then skip
             print(f"    [warn] {label} failed on {question_id} (attempt {attempt}): {e}")
     print(f"    [skip] {label} skipped for {question_id} after {RETRIES} failed attempts")
     return None

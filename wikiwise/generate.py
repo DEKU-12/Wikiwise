@@ -6,6 +6,7 @@ Requires ANTHROPIC_API_KEY set in .env (project root).
 """
 
 import anthropic
+import psycopg
 from dotenv import load_dotenv
 from langsmith import traceable
 from langsmith.run_helpers import get_current_run_tree
@@ -13,9 +14,14 @@ from pgvector.psycopg import register_vector
 from psycopg.rows import dict_row
 from sentence_transformers import CrossEncoder, SentenceTransformer
 
-import psycopg
 from wikiwise.load_vectordb import DB_DSN
-from wikiwise.retrieve import EMBED_MODEL_NAME, RERANK_MODEL_NAME, choose_role, pick_device, search
+from wikiwise.retrieve import (
+    EMBED_MODEL_NAME,
+    RERANK_MODEL_NAME,
+    choose_role,
+    pick_device,
+    search,
+)
 
 load_dotenv()
 

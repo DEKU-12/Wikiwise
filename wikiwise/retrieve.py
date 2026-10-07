@@ -10,13 +10,13 @@ Pipeline per query:
 Requires the wikiwise-pgvector Docker container running on localhost:5433.
 """
 
+import psycopg
 import torch
 from langsmith import traceable
 from pgvector.psycopg import register_vector
 from psycopg.rows import dict_row
 from sentence_transformers import CrossEncoder, SentenceTransformer
 
-import psycopg
 from wikiwise.load_vectordb import DB_DSN
 
 EMBED_MODEL_NAME = "BAAI/bge-small-en-v1.5"

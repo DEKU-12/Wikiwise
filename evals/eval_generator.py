@@ -16,6 +16,7 @@ import json
 from pathlib import Path
 
 import anthropic
+import psycopg
 from deepeval.metrics import AnswerRelevancyMetric, FaithfulnessMetric
 from deepeval.test_case import LLMTestCase
 from dotenv import load_dotenv
@@ -23,7 +24,6 @@ from pgvector.psycopg import register_vector
 from psycopg.rows import dict_row
 from sentence_transformers import CrossEncoder, SentenceTransformer
 
-import psycopg
 from evals.eval_retrieval import _measure_with_retry
 from wikiwise.generate import build_prompt, generate_answer
 from wikiwise.load_vectordb import DB_DSN

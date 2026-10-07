@@ -14,10 +14,10 @@ import random
 from pathlib import Path
 
 import anthropic
+import psycopg
 from dotenv import load_dotenv
 from psycopg.rows import dict_row
 
-import psycopg
 from wikiwise.load_vectordb import DB_DSN
 
 load_dotenv()
