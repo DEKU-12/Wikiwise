@@ -17,7 +17,7 @@ from psycopg.rows import dict_row
 from sentence_transformers import CrossEncoder, SentenceTransformer
 
 import psycopg
-from load_vectordb import DB_DSN
+from wikiwise.load_vectordb import DB_DSN
 
 EMBED_MODEL_NAME = "BAAI/bge-small-en-v1.5"
 RERANK_MODEL_NAME = "cross-encoder/ms-marco-MiniLM-L-6-v2"

@@ -28,8 +28,8 @@ from deepeval.classifiers.scope_adherence import ScopeAdherenceClassifier
 from deepeval.metrics import PIILeakageMetric, ToxicityMetric
 from deepeval.test_case import LLMTestCase
 
-GENERATOR_RESULTS_FILE = Path("eval_generator_results.json")
-RESULTS_FILE = Path("guardrails_results.json")
+GENERATOR_RESULTS_FILE = Path("evals/results/eval_generator_results.json")
+RESULTS_FILE = Path("evals/results/guardrails_results.json")
 
 SCOPE_DESCRIPTION = (
     "This assistant answers questions using content retrieved from the "

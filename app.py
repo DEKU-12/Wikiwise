@@ -16,9 +16,9 @@ from psycopg.rows import dict_row
 from sentence_transformers import CrossEncoder, SentenceTransformer
 
 import psycopg
-from generate import build_prompt, generate_answer
-from load_vectordb import DB_DSN
-from retrieve import EMBED_MODEL_NAME, RERANK_MODEL_NAME, ROLES, pick_device, search
+from wikiwise.generate import build_prompt, generate_answer
+from wikiwise.load_vectordb import DB_DSN
+from wikiwise.retrieve import EMBED_MODEL_NAME, RERANK_MODEL_NAME, ROLES, pick_device, search
 
 load_dotenv()
 

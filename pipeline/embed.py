@@ -16,9 +16,9 @@ from pgvector.psycopg import register_vector
 from sentence_transformers import SentenceTransformer
 
 import psycopg
-from load_vectordb import DB_DSN, create_schema, upsert_chunks
+from wikiwise.load_vectordb import DB_DSN, create_schema, upsert_chunks
 
-CHUNKS_FILE = Path("chunks.jsonl")
+CHUNKS_FILE = Path("data/chunks.jsonl")
 
 MODEL_NAME = "BAAI/bge-small-en-v1.5"
 BATCH_SIZE = 64

@@ -20,7 +20,7 @@ import frontmatter
 from langchain_text_splitters import Language, RecursiveCharacterTextSplitter
 
 HANDBOOK_DIR = Path("handbook/content/handbook")
-OUTPUT_FILE = Path("chunks.jsonl")
+OUTPUT_FILE = Path("data/chunks.jsonl")
 
 CHUNK_SIZE = 1500
 CHUNK_OVERLAP = 150

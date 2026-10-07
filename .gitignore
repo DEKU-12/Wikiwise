@@ -11,4 +11,4 @@ brag-output/
 .claude/
 .deepeval/
 .DS_Store
-chunks.jsonl
+data/

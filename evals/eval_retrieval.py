@@ -25,8 +25,8 @@ from psycopg.rows import dict_row
 from sentence_transformers import CrossEncoder, SentenceTransformer
 
 import psycopg
-from load_vectordb import DB_DSN
-from retrieve import (
+from wikiwise.load_vectordb import DB_DSN
+from wikiwise.retrieve import (
     CANDIDATES_PER_ARM,
     EMBED_MODEL_NAME,
     QUERY_INSTRUCTION,
@@ -38,7 +38,7 @@ from retrieve import (
     vector_search,
 )
 
-GOLDEN_FILE = Path("golden_dataset.jsonl")
+GOLDEN_FILE = Path("evals/golden_dataset.jsonl")
 TOP_K = 10  # retrieve this many, so we can compute recall/precision at k=1,3,5,10
 JUDGED_K = 5  # how many of those go to the DeepEval-judged contextual metrics
 RECALL_KS = [1, 3, 5, 10]
@@ -198,9 +198,9 @@ def main():
         for d in leakage["details"]:
             print(f"    {d['question_id']}: leaked {d['leaked_chunk_ids']}")
 
-    with open("eval_retrieval_results.json", "w", encoding="utf-8") as f:
+    with open("evals/results/eval_retrieval_results.json", "w", encoding="utf-8") as f:
         json.dump({"quality": quality, "leakage": leakage}, f, indent=2)
-    print("\nSaved full results to eval_retrieval_results.json")
+    print("\nSaved full results to evals/results/eval_retrieval_results.json")
 
 
 if __name__ == "__main__":

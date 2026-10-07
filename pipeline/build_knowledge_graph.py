@@ -18,11 +18,11 @@ from dotenv import load_dotenv
 from psycopg.rows import dict_row
 
 import psycopg
-from load_vectordb import DB_DSN
+from wikiwise.load_vectordb import DB_DSN
 
 load_dotenv()
 
-OUTPUT_FILE = Path("knowledge_graph.json")
+OUTPUT_FILE = Path("data/knowledge_graph.json")
 MODEL_NAME = "claude-sonnet-5"
 
 FULL_DEPARTMENTS = ["leadership", "eba", "ceo"]

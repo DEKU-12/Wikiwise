@@ -21,9 +21,9 @@ from pgvector.psycopg import register_vector
 
 load_dotenv()
 
-CHUNKS_FILE = Path("chunks.jsonl")
-EMBEDDINGS_FILE = Path("embeddings.npy")
-IDS_FILE = Path("embedding_ids.json")
+CHUNKS_FILE = Path("data/chunks.jsonl")
+EMBEDDINGS_FILE = Path("data/embeddings.npy")
+IDS_FILE = Path("data/embedding_ids.json")
 
 DB_DSN = os.getenv("DATABASE_URL", "postgresql://wikiwise:wikiwise@localhost:5433/wikiwise")
 EMBEDDING_DIM = 384

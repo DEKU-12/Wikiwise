@@ -24,15 +24,15 @@ from psycopg.rows import dict_row
 from sentence_transformers import CrossEncoder, SentenceTransformer
 
 import psycopg
-from eval_retrieval import _measure_with_retry
-from generate import build_prompt, generate_answer
-from load_vectordb import DB_DSN
-from retrieve import EMBED_MODEL_NAME, RERANK_MODEL_NAME, pick_device, search
+from evals.eval_retrieval import _measure_with_retry
+from wikiwise.generate import build_prompt, generate_answer
+from wikiwise.load_vectordb import DB_DSN
+from wikiwise.retrieve import EMBED_MODEL_NAME, RERANK_MODEL_NAME, pick_device, search
 
 load_dotenv()
 
-GOLDEN_FILE = Path("golden_dataset.jsonl")
-RESULTS_FILE = Path("eval_generator_results.json")
+GOLDEN_FILE = Path("evals/golden_dataset.jsonl")
+RESULTS_FILE = Path("evals/results/eval_generator_results.json")
 
 
 def load_golden() -> list[dict]:

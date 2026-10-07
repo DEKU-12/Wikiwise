@@ -10,7 +10,8 @@ WORKDIR /home/user/app
 COPY --chown=user requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY --chown=user app.py generate.py retrieve.py load_vectordb.py ./
+COPY --chown=user app.py ./
+COPY --chown=user wikiwise/ wikiwise/
 
 EXPOSE 8501
 # fileWatcherType=none: no live reload needed in prod, and it avoids the torchvision traceback spam.

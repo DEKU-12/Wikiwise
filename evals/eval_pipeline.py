@@ -18,11 +18,11 @@ from pathlib import Path
 from deepeval.metrics import GEval
 from deepeval.test_case import LLMTestCase, SingleTurnParams
 
-from eval_retrieval import _measure_with_retry
+from evals.eval_retrieval import _measure_with_retry
 
-GOLDEN_FILE = Path("golden_dataset.jsonl")
-GENERATOR_RESULTS_FILE = Path("eval_generator_results.json")
-RESULTS_FILE = Path("eval_pipeline_results.json")
+GOLDEN_FILE = Path("evals/golden_dataset.jsonl")
+GENERATOR_RESULTS_FILE = Path("evals/results/eval_generator_results.json")
+RESULTS_FILE = Path("evals/results/eval_pipeline_results.json")
 
 CORRECTNESS_CRITERIA = (
     "Determine whether the actual output is factually correct and consistent "
