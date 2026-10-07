@@ -11,9 +11,17 @@ Wikiwise is a permission-aware RAG (retrieval-augmented generation) assistant bu
 
 ## Demo video
 
-[![Wikiwise demo: the pipeline running, then the same question answered as employee and as admin](assets/wikiwise-demo.jpg)](assets/wikiwise-demo.mp4)
 
-*30 seconds, all real: the full pipeline running (ingest → embed → index → eval → deploy), then the same question asked as `employee` and as `admin`. Click the image to play it.*
+
+
+
+https://github.com/user-attachments/assets/0bfc0714-ebe2-4165-9cfc-a21487bc45f7
+
+
+
+
+
+*30 seconds, all real: the full pipeline running (ingest → embed → index → eval → deploy), then the same question asked as `employee` and as `admin`.*
 
 ## Try it
 
@@ -74,7 +82,7 @@ Every metric below is measured against a hand-built **golden dataset** of 63 que
 | Recall@1 / @3 / @5 / @10 | **73.0% / 84.1% / 90.5% / 92.1%** |
 | Permission leak rate: restricted questions asked as `employee` | **0.0%** (0 of 9 questions leaked any restricted chunk) |
 | Contextual precision / recall @5 (LLM-judged) | 0.80 / 0.89 |
-| Contextual relevancy @5 (LLM-judged) | 0.42 |
+
 
 The recall and leak-rate figures come from the 2026-10-07 run recorded in the demo video, on a freshly rebuilt index. The LLM-judged contextual metrics come from the earlier full run on 2026-09-24 (judge: `qwen2.5:7b` via Ollama), when Recall@5 was 79.4%. Contextual relevancy is low because 5 chunks of about 1,000 characters each carry a lot of text that's true but unrelated to the question. It isn't a sign that the wrong chunks were retrieved.
 
