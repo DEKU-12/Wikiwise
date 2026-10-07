@@ -33,8 +33,17 @@ def load_models():
     return embed_model, reranker
 
 
+def database_url() -> str:
+    # Streamlit Cloud provides DATABASE_URL via st.secrets; locally there's no
+    # secrets.toml, so fall back to .env / the local default in load_vectordb.
+    try:
+        return st.secrets["DATABASE_URL"]
+    except (KeyError, FileNotFoundError):
+        return DB_DSN
+
+
 def get_connection():
-    conn = psycopg.connect(DB_DSN, row_factory=dict_row)
+    conn = psycopg.connect(database_url(), row_factory=dict_row)
     register_vector(conn)
     conn.execute("SET hnsw.iterative_scan = relaxed_order")
     return conn
