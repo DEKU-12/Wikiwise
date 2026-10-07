@@ -1,0 +1,449 @@
+{
+  "faithfulness": 0.9775132275132276,
+  "faithfulness_n": 63,
+  "answer_relevancy": 0.9253314146171289,
+  "answer_relevancy_n": 63,
+  "per_question": [
+    {
+      "question_id": "q001",
+      "question": "What are the three perspectives taken into account by Customer Experience (CX) Journey Research?",
+      "answer": "The three perspectives taken into account by Customer Experience (CX) Journey Research are [1]:\n\n1. **Customer Lens:** Understanding the customer's key activities along the core customer journey, their needs, who on their side is engaged in purchase decisions, through to onboarding and adoption, and the needs and expectations of GitLab for success.\n2. **GitLab Teams:** Understanding the experience of the GitLab team collaborating together in service of helping customers move through their purchasing and adoption journey, and identifying areas of friction inhibiting the best service to customers.\n3. **Customer + GitLab Intersection:** Capturing the customer experience through the engagement model between the customer's teams and GitLab's teams to realize value in their investment with GitLab.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q002",
+      "question": "Who ensures PDF versions of board meeting materials are securely stored in NBV and Google Drive?",
+      "answer": "The CLO ensures that PDF versions of the materials—including presentations, exhibits, approved Minutes, and Administrative materials—are securely stored in NBV and on Google Drive, labeled with the date of the meeting [1][2].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q003",
+      "question": "According to GitLab's Directness value, what should feedback focus on?",
+      "answer": "According to the Directness value, feedback should always be about your work, not your person — being straightforward and kind rather than personal [3].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q004",
+      "question": "Who conducts the technical interview for the Support Engineer hiring process at GitLab?",
+      "answer": "The technical interview for the Support Engineer hiring process is conducted by Support Engineers [5].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q005",
+      "question": "What naming convention should Support team members use for their Zoom display name?",
+      "answer": "Support Team members should format their Zoom display name to identify them by vendor and role, using the smallest sub-department unit they belong to, biasing for customer understanding over technical correctness. For example: \"Customer Support -> Support Engineering\" should be shown simply as \"Support Engineering,\" \"Customer Support -> Support Readiness -> Support Operations\" should be shown as \"Support Operations,\" and \"Customer Support -> Support Engineering -> U.S. Government Support\" should be shown as \"U.S. Government Support\" [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q006",
+      "question": "What is required before using the Gemini API for custom applications or integrations at GitLab?",
+      "answer": "Before using the Gemini API for custom applications or integrations, prior Legal/CorpSec review and API-key approval are required — you must not provision keys yourself. Additionally, only Orange data may be used; no Red data may be sent through custom integrations built with the Gemini API [1][2].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q007",
+      "question": "According to GitLab's meeting framework, should large meetings like Assembly include presentations?",
+      "answer": "Yes. According to GitLab's meeting framework, meetings with many participants such as Assembly and other large team meetings are the exception where presentations should be used, whereas most meetings (with few participants) should not have presentations and instead rely on async preparation [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q008",
+      "question": "What are the four tabs in the Notes feature of the Zuora Collect module?",
+      "answer": "According to [1], the Notes feature of the Zuora Collect module consists of four tabs:\n\n- **Users**: View all users (collection agents) in the organization, edit the active status of a user, or set the escalation point for a user.\n- **Groups**: Manage user groups in this tab.\n- **Export**: Export notes that are made in the Collections Window feature.\n- **Settings**: Get the Notes API-token and use it to integrate with Collections Window.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5
+    },
+    {
+      "question_id": "q009",
+      "question": "What is one example of a potential extenuating circumstance listed in GitLab's People Policies?",
+      "answer": "The provided context does not explicitly list specific examples of extenuating circumstances (like natural disasters or medical emergencies) under the Job Abandonment Policy exceptions. It only mentions that such circumstances are \"emergencies outside of the team members' control\" and outlines the recommended steps to take, such as notifying the manager and exchanging contact information [1]. No specific named examples are provided in this excerpt.",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.5714285714285714
+    },
+    {
+      "question_id": "q010",
+      "question": "What is the difference between a 'collaborator' and an 'audience' in GitLab's Concept Release Discipline?",
+      "answer": "Based on the context, a **collaborator** is someone inside the work, contributing to something still being formed—they join the dark phase alongside the concept team and become part of the working group [1]. An **audience**, by contrast, is someone being introduced to something that is ready to be seen [1].\n\nThe key distinction is that release phases (such as internal debut or external release) apply specifically to audiences, not to collaborators [1] [2]. When someone from another team joins as a collaborator, the expectation is that the work stays within that working group until a debut has been planned—it should not be referenced in other channels, shared with other teams, or mentioned in conversations with leadership outside the working group [1]. In contrast, an audience is engaged only once a debut has been deliberately planned, with the channel, timing, and audience confirmed in advance [2].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q011",
+      "question": "What is the process for sending an e-card to celebrate a team member at GitLab?",
+      "answer": "According to the handbook, the process for sending an e-card to celebrate a team member at GitLab is as follows [1]:\n\n1. Create the e-card using Google Docs, Google Slides, or a program of your choice (an example sample e-card template is available), and feel free to get creative with it.\n2. Upload the document to DocuSign.\n3. Once uploaded, assign signatures to the individuals you would like to sign the card, then send the request to those individuals.\n4. When an individual has signed, you will receive an email notification.\n5. After all signatures have been collected, download the document from DocuSign.\n6. Slack or email the card to the recipient.\n\nRecommended sites for e-cards include Ella Cards and Kudoboard Cards [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q012",
+      "question": "In GitLab's talent assessment, what weight is given to performance against GitLab Competencies?",
+      "answer": "Performance against GitLab Competencies (Values Competencies, Remote Working Competencies, Job Frameworks, and, if applicable, Manager and Leadership Competencies) should be weighted at 40% [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q013",
+      "question": "What types of partners are encouraged to consider GitLab's Professional Services Partner (PSP) Program?",
+      "answer": "Open and Select Partners with existing services practices in one or more of the following spaces are encouraged to consider the GitLab Professional Services Partner (PSP) Program:\n\n- DevOps/DevSecOps\n- App modernization\n- Digital transformation\n- Container & Kubernetes\n- Google Cloud, especially partners with the \"Application Development – Services\" Specialization\n- AWS, especially partners with the AWS Migration and Modernization, DevOps or Generative AI Competencies [1]",
+      "faithfulness": 0.3333333333333333,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q014",
+      "question": "What is the difference between the Subscription Contact and the Billing Contact in the GitLab Customer Portal?",
+      "answer": "According to [4], the Subscription Contact is the primary contact for your billing account, while the Billing Contact receives all invoices and subscription event notifications. Sometimes you may want a different user to serve as the primary administrative owner of the GitLab subscription (Subscription Contact) than the one who receives invoices (Billing Contact), and these can be edited separately in the Customer Portal [4].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q015",
+      "question": "What should NOT be submitted through GitLab's DAP customer feedback framework as a feature request?",
+      "answer": "Bug reports or issues where existing features don't work correctly should **not** be submitted through GitLab's DAP Customer Feedback framework as a feature request. Instead, these should be submitted through Support Channels, following the support team's escalation process [1][3].\n\nAdditionally, when submitting feedback, users should avoid sharing customer identifiable information, API keys, or highly confidential details. If a request involves sensitive information, it should be discussed separately with a Customer Success Manager or directly with the relevant team [2].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q016",
+      "question": "During Week 10 of the CSM Internship Program, which stage of the DevSecOps lifecycle is reviewed in depth?",
+      "answer": "During Week 10 of the CSM Internship Program, the DevSecOps lifecycle stage reviewed in depth is **Configure** [2].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q017",
+      "question": "During the technical call in GitLab's acquisition process, is access to proprietary code requested?",
+      "answer": "No, access to proprietary code is *not* requested during the Technical Call. Code review takes place later, during the confirmatory due diligence phase [1][2].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q018",
+      "question": "What are Product Security's (PSD) guiding principles at GitLab?",
+      "answer": "Product Security's (PSD) guiding principles at GitLab are [1]:\n\n- **Business Enablement**: PSD's role is to facilitate GitLab in achieving its business goals by ensuring product teams can operate both efficiently and securely, bolstering customer trust, and utilizing transparency as a strategic advantage. This includes providing insightful product feedback through extensive dogfooding. [1]\n- **Empathy and Accessibility**: Recognizing that the optimal security solution may not always align with business or customer needs, PSD prioritizes understanding and empathizing with these unique perspectives. This empathetic approach guides their security practices and engagements, aiming to align methods with the preferences of customers and internal teams. [1]\n- **Pragmatism Over Perfection**: Addressing current challenges quickly and effectively is preferred over waiting for a perfect solution. PSD focuses on delivering incremental, tangible value through rapid, short-cycle initiatives, aiming for partial solutions that immediately benefit long-term goals. [1]\n- **Design for Rapid Iteration**: Their strategy and roadmaps are crafted to quickly identify and learn from suboptimal decisions by engaging with customers and stakeholders early and maintaining a tight feedback loop, which helps adapt and refine strategies and approaches efficiently. [1]",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8571428571428571
+    },
+    {
+      "question_id": "q019",
+      "question": "How often must third party penetration testing be performed, according to GitLab's vulnerability management guidance?",
+      "answer": "Third party penetration testing must be performed annually [2][4].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q020",
+      "question": "What can accompany a management response addressing a TPRM exception at GitLab?",
+      "answer": "According to the context, a management response addressing a TPRM exception may be accompanied by re-testing performed by the external auditor to validate that remediation was successful [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q021",
+      "question": "According to GitLab's TeamOps tips, who does TeamOps empower?",
+      "answer": "According to GitLab's TeamOps tips, TeamOps is for both individual contributors and people managers. It empowers individual contributors to be better stewards of their own time and attention, while concurrently empowering people managers to lead with deeper conviction and create more space for their direct reports to grow, develop, and contribute [3].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q022",
+      "question": "How soon after an all-remote meeting should the recording be uploaded?",
+      "answer": "According to [5], for an ongoing meeting series, the recording link and password should be added to the agenda **within 12 hours after the meeting** to allow for async consumption for people in different time zones.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q023",
+      "question": "According to GitLab's live doc meeting practices, what is one benefit of using an agenda doc?",
+      "answer": "One benefit is that establishing a culture of live doc meetings—starting with adding agendas to all work-related meetings—helps create team-wide understanding of the value of documentation, which is critical since team members may be in different locations or unable to attend meetings live [1]. This approach improves meeting hygiene and increases cohesion, discipline, and transparency regardless of the work environment [1][2].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.875
+    },
+    {
+      "question_id": "q024",
+      "question": "Who is the Executive Sponsor of GitLab's Customer Use Case Adoption working group?",
+      "answer": "The provided context does not contain information about who serves as the Executive Sponsor of GitLab's Customer Use Case Adoption working group [3]. While passage [3] describes the purpose, goals, and history of this working group, it does not mention an Executive Sponsor role or name anyone in that capacity.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q025",
+      "question": "What happens when a manager approves a nomination through GitLab's Nominator bot?",
+      "answer": "When a manager approves the nomination, all they need to do is click the approve button — the bot then automatically takes care of the next steps, which includes sending it to the second level manager and the People Operations team for further review [1]. Once everyone has approved, the bot will reach out to the manager again so they can share the news with the team member, typically in the #thanks Slack channel, and ensure the team member's direct peers can easily see it (for example, by cross-posting to the team member's group channel) [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.75
+    },
+    {
+      "question_id": "q026",
+      "question": "What is the maximum limit for E1/P1 engineering-driven initiatives per 20 engineers, unless approved by the VP of Product and/or Engineering?",
+      "answer": "Unless approved by the respective VP of Product and/or Engineering, there is a maximum limit of 1 x (P1 or E1) per 20 engineers [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q027",
+      "question": "What is the minimum employment duration required to request temporary part-time (Brückenteilzeit) at GitLab GmbH in Germany?",
+      "answer": "The minimum employment duration required to request temporary part-time (Brückenteilzeit) under § 9a TzBfG at GitLab GmbH is **at least 6 months** [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q028",
+      "question": "What special feature does the Alfred app's clipboard history have related to 1Password?",
+      "answer": "According to the context, Alfred's clipboard history feature is nicely integrated with many tools, and it will forget passwords copied from 1Password after they have been pasted [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q029",
+      "question": "Roughly how many pages does the printed GitLab team handbook consist of?",
+      "answer": "The printed GitLab team handbook consists of over 2,000 pages of text [1], which is consistent with the description of it as \"over 2,000 web pages of text\" in another passage [2].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q030",
+      "question": "What is required before deactivating an organization field in Zendesk, according to GitLab's process?",
+      "answer": "Before deactivating an organization field in Zendesk, there must be a corresponding request issue (Feature Request, Administrative, Bug, etc.). If one does not exist, one should first be created and allowed to go through the standard process before the deactivation work is done [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q031",
+      "question": "When should you use Glean's Chat feature instead of Search?",
+      "answer": "You should use Glean's **Chat** feature when you want a synthesized answer, rather than when you already know roughly what you're looking for. For example, Chat is appropriate for questions like \"How do I request a new internal SaaS license?\" or \"Where is the process for internal hiring?\"—situations where you want the AI to pull together an answer rather than just locate a specific document [1].\n\nIn contrast, **Search** is better when you know roughly what you're looking for, such as the AMER swag process, GitLab for Slack app docs, or a specific customer or project name [1]. This distinction is echoed elsewhere: use Assistant/Chat \"when you want an answer\" (e.g., \"How do I submit expenses?\", \"What's my Parental Leave policy?\"), and use Search when you know what you're looking for (e.g., customer names or specific documents) [5].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q032",
+      "question": "What are the three types of Alliance Partners in GitLab's Alliance Partner Program?",
+      "answer": "The three types of Alliance Partners in GitLab's Alliance Partner Program are:\n\n1. **Cloud Partners** – Partners that provide public cloud computing services and software marketplaces where customers can procure and deploy GitLab\n2. **Platform Partners** – Partners that provide modern cloud / cloud-native application platforms which increase the modularity and extensibility of GitLab across enterprises and architectures\n3. **Technology Partners** – Independent Software Vendors (ISV) Partners with complementary technologies that seamlessly integrate/interoperate with GitLab for more complete customer solutions [1]",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q033",
+      "question": "What notice applies to victims of domestic and sexual violence in Missouri, according to GitLab's labor and employment notices?",
+      "answer": "According to GitLab's labor and employment notices for Missouri, the applicable notice is the \"Notice to Victims of Domestic and Sexual Violence - Leave Time Allowed\" [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q034",
+      "question": "What is the minimum tenure required to transition from SDR to SDR Team Lead at GitLab?",
+      "answer": "The minimum tenure required to transition from SDR to SDR Team Lead is 8 months, including ramp [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q035",
+      "question": "When are Dashboard Folders useful in Gainsight administration?",
+      "answer": "Dashboard Folders are useful when your Gainsight instance is very large and there are a lot of different user profiles (e.g., TAM, Onboarding, CSM, etc.) [1][2]. Otherwise, creating them is often not necessary and can be repetitive [1][2]. It's also advised to remove any unused dashboards or dashboard folders, as there is rarely a strong reason to keep deprecated ones [1][2].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.75
+    },
+    {
+      "question_id": "q036",
+      "question": "How often are individual performance assessments conducted within GitLab's Channel Sales team?",
+      "answer": "Individual performance assessments within GitLab's Channel Sales team are conducted on a semi-annual basis, consisting of a mid-year review and an end-of-year review [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q037",
+      "question": "How many visibility levels does GitLab provide for each project, and what are they?",
+      "answer": "GitLab provides three visibility levels for each project: Public, internal, and private [1][2].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q038",
+      "question": "What scaling configuration is GitLab.com's Postgres database currently running, according to the Scalability page?",
+      "answer": "According to the Scalability page, GitLab.com is currently running Postgres at `[1,1,0]` in the Scale Cube [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5
+    },
+    {
+      "question_id": "q039",
+      "question": "In the Artifact Registry ADR 021 authorization decision, what happens if a row's evaluation fails?",
+      "answer": "According to ADR 021, a failed row evaluation fails the whole request instead of dropping out silently [4].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q040",
+      "question": "What merge request review approach does the Switchboard team use, and why?",
+      "answer": "The Switchboard team uses an \"Approve and Merge\" approach, chosen because the team is currently small [1]. In this process, the merge request author selects one or more Switchboard reviewers (using the reviewer roulette if uncertain, and adding the Switchboard technical writer if the issue is labeled `technical writing`), reviewers perform the review, and if satisfied, a reviewer approves and merges — unless other reviewers have unresolved questions or suggestions [1]. If the merge request has the required approvals, the reviewer triggers a pipeline and sets auto-merge, seeking a maintainer for merging if they lack merge permissions themselves [1].\n\nIt's also noted that the team intends to move toward a more typical \"reviewers and maintainers\" approach requiring two reviews once they have enough team members to support it [4].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q041",
+      "question": "Why is a direct GraphQL query for a Merge Request considered a 'bad example' in the Cells GraphQL design document?",
+      "answer": "According to [1], the query `mergeRequest(id: 1111) { iid description }` is considered a \"Bad example, since Merge Request is not routable\" [1]. This is because, as explained in [2], for GraphQL to work in a Cells architecture, the router needs to parse the GraphQL body to find a routable entity, like `project`, in order to determine which Cell the query should be executed against [2]. A Merge Request apparently lacks this routable property (unlike `project`, which can be identified by `fullPath`), so it cannot be used to determine the correct Cell for routing the query.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q042",
+      "question": "What should you do if you need database assistance but no stable counterpart is listed for your area?",
+      "answer": "If no stable counterpart is listed for your area, you should feel free to reach out directly to the #g_database Slack channel [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5
+    },
+    {
+      "question_id": "q043",
+      "question": "Within how many months of release will newer (N+1) Kubernetes releases be supported by GitLab?",
+      "answer": "Newer (N+1) Kubernetes releases will be supported within 3 months of their release [1][2].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q044",
+      "question": "According to GitLab's coaching guidance, what should you do during a virtual coaching session to stay present?",
+      "answer": "During a virtual coaching session, you should close out other programs to focus on the coachee, giving them your undivided attention, and being truly present physically, mentally, and emotionally. You should focus on the other person without judgment [1].\n\nAdditional strategies to help you stay present include:\n- Making gestures such as nodding your head to show you are present\n- Emptying your own mind of preoccupations that divert your focus, attention, and energy\n- Grounding yourself in an open, curious, and appreciative mindset\n- Looking for something to appreciate about your coachee, yourself, and the coaching process\n- Grounding yourself in your intentions for the coaching conversation [1]",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q045",
+      "question": "What is the starter template for publishing Claude prototypes to GitLab Pages, and what type of prototypes is it set up for?",
+      "answer": "The starter template is available at **gitlab.com/diegocapetown/claude-pages-template**. To use it, you fork it, replace the contents of `src/main.jsx` with your Claude-generated code, and commit — the prototype will be live within minutes since the `.gitlab-ci.yml` is already configured [1].\n\nThis template is set up specifically for **React-based prototypes**, which is what Claude generates by default. If your prototype uses a different structure, you should follow the manual setup steps instead [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q046",
+      "question": "In the Fulfillment Guide's Licenses section, what information does clicking the license details icon show?",
+      "answer": "Clicking the ℹ️ icon shows the following license details: Type (Cloud, offline cloud, or legacy license), Trial (whether it's a trial license), Name, Company, Email, Issued at/starts at/expires at dates, User count, Zuora subscription name and link, and GitLab plan [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q047",
+      "question": "According to GitLab's Handbook Usage guidance, what type of content should be avoided?",
+      "answer": "According to GitLab Handbook Usage guidance, the handbook should avoid content that is not related to GitLab team members' jobs. Specifically:\n\n- Documentation that applies to code contributions from the wider community should not be in the Handbook, but rather in the GitLab project (e.g., in Contributing or the code review guidelines), since the Handbook is only for team members [2].\n- User-facing company information should not be in the handbook, but should instead be on the main marketing website or the blog [2].\n- Content concerning users of GitLab (rather than team members) should not be in the handbook; instead, it should be documented in the GitLab documentation, the GitLab Development Kit (GDK), the CONTRIBUTING file, or the PROCESS file [2].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q048",
+      "question": "What must be established for a Trusted Data solution before development, according to GitLab's Trusted Data Solution Criteria?",
+      "answer": "According to GitLab's Trusted Data Solution Criteria, the following must be established before/during development [1]:\n\n1. The business problem is defined with clear revenue impact established\n2. A Data project Epic is created to manage development\n3. Requirements and success criteria are captured and tracked in the Epic\n4. Scope is defined for v1.0 and v1.1, with a release cycle established up-front (e.g. weekly, bi-weekly, monthly)\n5. A Dashboard Wireframe is created in Lucid or Tableau and shared with users, iterating to \"final draft\"\n6. If a Dimensional Data Model solution is indicated, the Dimensional Data Model is designed and integrated into the Enterprise Dimensional Model Bus Matrix (not applicable for data modeled in the `SPECIFIC` application schema)\n7. (Draft/under review) Trusted Data Tests are created and deployed\n8. The solution enters a User Acceptance Testing phase, including data validations to source systems\n9. The solution is registered in the Data Catalog\n10. The solution is deployed, including any required training and user enablement\n\nOverall, trusted data development prioritizes consistency, reliability, and adherence to industry best practices [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6923076923076923
+    },
+    {
+      "question_id": "q049",
+      "question": "What are the three primary databases used by GitLab's Data Team Platform?",
+      "answer": "The three primary databases used by GitLab's Data Team Platform are `raw`, `prep`, and `prod` [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q050",
+      "question": "What GL Account should be selected for Consulting Fees when submitting a Zip Request at GitLab?",
+      "answer": "GL Account 6017 should be selected for Consulting Fees when submitting a Zip Request [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q051",
+      "question": "According to the GitLab Testing Agreement v5, what warranties does GitLab provide for testing features?",
+      "answer": "According to the GitLab Testing Agreement v5, GitLab provides **no warranties** for testing features. The Testing Feature is provided \"AS IS\" and \"AS AVAILABLE,\" and the customer expressly acknowledges that the feature is still in the testing phase and may contain defects. GitLab and its licensors disclaim all warranties, express or implied, including without limitation all implied warranties of merchantability, fitness for a particular purpose, title, and non-infringement. Additionally, no information or advice—whether oral or written—provided by GitLab during the testing period creates any warranty not expressly made in the agreement [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q052",
+      "question": "Why did GitLab create its AI Ethics Principles for Product Development?",
+      "answer": "GitLab created its AI Ethics Principles for Product Development to guide its decision making as it continues to build AI features into GitLab, and to ensure that these features properly embody its core CREDIT values [1]. The company recognizes that AI features, without guardrails, may give rise to ethical concerns, and it is dedicated to integrating AI throughout the software development lifecycle by responsibly incorporating it into its DevSecOps platform [1]. Additionally, GitLab is publishing these principles to stay true to its core Transparency value, and since AI itself and its use is continuously evolving, the principles are meant to be reviewed and iterated as necessary to reflect best practices in responsible development [1].",
+      "faithfulness": 0.8333333333333334,
+      "answer_relevancy": 0.5
+    },
+    {
+      "question_id": "q053",
+      "question": "What confirms that a contract has been reviewed and approved by a GitLab Legal Team Member?",
+      "answer": "A contract confirms it has been reviewed and approved by a GitLab Legal Team Member through the **GitLab Legal stamp** included on the contract [1]. This is a digital stamp applied by a GitLab Contract Manager or legal representative, and it indicates (i) the name of the GitLab legal member that approved the contract, and (ii) the date of approval [2]. If a contract does not include this stamp, it should not be signed, and the Procurement Team should be contacted for assistance [1][2].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q054",
+      "question": "What should you fill out if you have a request for an E-Group member to speak at an external event?",
+      "answer": "You should fill out the Executive External Event Brief with the key information and email it to the EBA supporting the Executive with your request [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q055",
+      "question": "What must be linked as the Success Criteria before manager approval in a Proof of Value (POV)?",
+      "answer": "Before manager approval, the **Success Criteria** field must link the customer-specific POV Plan or evaluation document. This plan must contain measurable goals, use cases, evidence, and decision criteria [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q056",
+      "question": "What should CEO Shadows prioritize when taking notes during E-Group Weekly Meetings?",
+      "answer": "During E-Group Weekly Meetings, CEO Shadows should prioritize capturing accurate takeaways over precise, verbatim notes, especially since the discussions are fast-paced with a lot of back-and-forth, making it difficult to type fast enough to keep up with the conversation [1]. More broadly, the goal of note-taking is to collect the main points and outcomes rather than a full transcript, while also being mindful that absorbing what is being said is a key purpose of the program itself [2]. Shadows should also keep in mind that these notes are not reviewed or approved by meeting attendees and therefore should not be treated as the single source of truth for the meeting [2].\n\nAdditionally, if other team members are invited to discuss a specific topic with E-Group, shadows should take notes in the separate agenda for that specific topic rather than in the main E-Group agenda [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q057",
+      "question": "Are GitLab team members required to have the social or comms team review their personal social media posts?",
+      "answer": "No, GitLab team members are not required to have the social or comms team review their personal social media posts. The GitLab social team will never require a review or oversight of personal social media posts, unless a team member is using suggestions from Bambu or another tool the team has provided, in which case the copy is already written to be public-facing [1].",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q058",
+      "question": "What are the two types of sales plays described in GitLab's Sales Plays handbook page?",
+      "answer": "The two types of sales plays are:\n\n1. **Evergreen sales plays** – a repeatable set of proven successful sales tactics\n2. **Focused sales plays** – a generated set of steps in coordination with a particular time-bound campaign\n\n[1]",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q059",
+      "question": "What is a possible next career step for a Content Marketing Manager at GitLab?",
+      "answer": "The provided context does not contain enough information to answer this question. None of the passages mention career paths, progression, or role information specific to a Content Marketing Manager position. [1][2][3][4][5]",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "question_id": "q060",
+      "question": "Who is the Operational Program Owner in GitLab's Hyperscaler Campaign issue details?",
+      "answer": "Francine is the Operational Program Owner in GitLab's Hyperscaler Campaign issue details [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q061",
+      "question": "What score range corresponds to 'Business Critical Technology - Tier 1' in GitLab's marketing technology tiering system?",
+      "answer": "A score range of 8-9 corresponds to \"Business Critical Technology - Tier 1\" in GitLab's marketing technology tiering system [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q062",
+      "question": "How is Gated Content (like a White Paper) tracked in Bizible, according to GitLab's Campaigns and Programs page?",
+      "answer": "Gated Content (like a White Paper or other content offer) is tracked as an **online** channel in Bizible [1].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": "q063",
+      "question": "What does a 'Strong Yes' rating mean when conducting a GitLab interview?",
+      "answer": "A \"Strong Yes\" rating means different things depending on the context:\n\n**For GitLab's Engineering Division** [1]:\n- It extends \"Yes\" (meaning all must-have criteria evaluated in the interview were present)\n- The candidate meets an unusually large proportion of the \"nice to have\" criteria for the role\n- The candidate brings interesting qualities that weren't necessarily being looked for\n\n**In the general interview scoring framework** [2]:\n- \"Strong Yes\" means the candidate exceeded expectations of the competency (they meet requirements and align with values)\n- The interviewer has no significant questions and is confident, to the best of their knowledge with the information at hand, that the candidate would succeed in the role\n\n**For UX/Product Designer hiring specifically** [3]:\n- At least two \"strong yes\" recommendations from UX team members who participated in the interview process are required to advance a candidate to an offer, and this threshold applies regardless of the interviewer's role (IC, manager, director, or Chief Design Officer all carry equal weight)",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "quality": {
+    "recall_at_k": {
+      "1": 0.6825396825396826,
+      "3": 0.7777777777777778,
+      "5": 0.7936507936507936,
+      "10": 0.8095238095238095
+    },
+    "precision_at_k": {
+      "1": 0.6825396825396826,
+      "3": 0.2592592592592594,
+      "5": 0.15873015873015867,
+      "10": 0.08095238095238091
+    },
+    "mrr": 0.7333333333333334,
+    "contextual_precision": 0.8029100529100529,
+    "contextual_relevancy": 0.4190255697148438,
+    "contextual_recall": 0.8888888888888888,
+    "contextual_precision_n": 63,
+    "contextual_relevancy_n": 63,
+    "contextual_recall_n": 63
+  },
+  "leakage": {
+    "restricted_questions_tested": 9,
+    "questions_with_leaks": 0,
+    "leak_rate": 0.0,
+    "details": []
+  }
+}

@@ -1,0 +1,15 @@
+# Runtime-only deps for the deployed app (app.py and what it imports). Full dev env: requirements-dev.txt.
+# CPU-only torch: free hosting has no GPU, and the CUDA build is several GB larger.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.0
+sentence-transformers==6.1.0
+
+numpy==2.5.3
+psycopg==3.3.6
+psycopg-binary==3.3.6
+pgvector==0.5.0
+
+anthropic==1.8.0
+python-dotenv==1.2.3
+streamlit==1.64.0
+langsmith==0.14.0

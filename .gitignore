@@ -1,0 +1,14 @@
+handbook/
+venv/
+.idea/
+__pycache__/
+*.pyc
+.env*
+
+# Not part of the published repo
+brag-output/
+.agents/
+.claude/
+.deepeval/
+.DS_Store
+chunks.jsonl
